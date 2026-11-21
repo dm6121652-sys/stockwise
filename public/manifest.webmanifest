@@ -1,0 +1,12 @@
+{
+  "name": "Stockwise Shop Manager",
+  "short_name": "Stockwise",
+  "description": "Manage products, sales, and shop stock.",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#090909",
+  "theme_color": "#090909",
+  "icons": [
+    { "src": "/stockwise-app-icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.next-output/
+.stockwise-build/
+.stockwise-build2/
+.stockwise-build3/
+stockwise-output/
+stockwise-final/
+stockwise-live/
+stockwise-dev/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
