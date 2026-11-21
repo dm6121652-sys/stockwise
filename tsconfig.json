@@ -29,19 +29,22 @@
     }
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".stockwise-build/types/**/*.ts",
-    ".stockwise-build2/types/**/*.ts",
-    ".stockwise-build3/types/**/*.ts",
     "next-env.d.ts",
-    "stockwise-output/types/**/*.ts",
-    "stockwise-final/types/**/*.ts",
-    "stockwise-live/types/**/*.ts",
-    "stockwise-dev/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "components/**/*.ts",
+    "components/**/*.tsx",
+    "lib/**/*.ts",
+    "lib/**/*.tsx",
+    "next.config.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    ".stockwise-build*",
+    "stockwise-*",
+    "stockwise-output",
+    ".next-output",
+    "out"
   ]
 }
